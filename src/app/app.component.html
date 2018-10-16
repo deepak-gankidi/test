@@ -17,11 +17,29 @@
       <mat-list-item class="sidenav-list-item">
         <a i18n="@@tutorial-button" [routerLink]="['/']">Tutorials</a>
       </mat-list-item>
-      <mat-list-item>
-        <a i18n="@@template-button" [routerLink]="['/templates']">Templates</a>
-      </mat-list-item>
     </mat-list>
   </mat-drawer>
+
+  <!--<form [formGroup]="countryForm" i18n="@@dropdown-test">
+    <select formControlName="countryControl" >
+      <option [value]="country" *ngFor="let country of countries"> {{country}}</option>
+    </select>
+  </form>-->
+
+  <form [formGroup]="countryForm" i18n="@@dropdown-test">
+    <select formControlName="countryControl" >
+      <option value="1-USA" > USA</option>
+      <option value="2-CANADA" > CANADA</option>
+      <option value="3-UK" > UK</option>
+    </select>
+  </form>
+
+
+  <button mat-raised-button i18n="@@button-test">{{ buttonText }}</button>
+
+  <button mat-raised-button i18n="@@button-tests">{{ buttonText }}</button>
+
+  <button mat-raised-button i18n="@@button-testss">{{ buttonText }}</button>
 
   <router-outlet></router-outlet>
 </mat-drawer-container>

@@ -1,0 +1,4 @@
+localized:
+  component:
+    # A hello world message for the localized component
+    hello: 

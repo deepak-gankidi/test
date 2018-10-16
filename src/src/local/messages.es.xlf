@@ -4,7 +4,7 @@
     <body>
       <trans-unit id="toolbar-title" datatype="html">
         <source>My Application</source>
-        <target>Mi Aplicación</target>
+        <target>My Applications</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">6</context>
@@ -12,7 +12,7 @@
       </trans-unit>
       <trans-unit id="tutorial-button" datatype="html">
         <source>Tutorials</source>
-        <target>Tutoriales</target>
+        <target>My Application tutorials</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">18</context>
@@ -26,11 +26,11 @@
       <x id="START_TAG_OPTION_2" ctype="x-option" equiv-text="&lt;option&gt;"/> UK<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/>
     <x id="CLOSE_TAG_SELECT" ctype="x-select" equiv-text="&lt;/select&gt;"/>
   </source>
-   <target>
+  <target>
     <x id="START_TAG_SELECT" ctype="x-select" equiv-text="&lt;select&gt;"/>
-      <x id="START_TAG_OPTION" ctype="x-option" equiv-text="&lt;option&gt;"/> USA-es<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/>
-      <x id="START_TAG_OPTION_1" ctype="x-option" equiv-text="&lt;option&gt;"/> CANADA-es<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/>
-      <x id="START_TAG_OPTION_2" ctype="x-option" equiv-text="&lt;option&gt;"/> UK-es<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/>
+      <x id="START_TAG_OPTION" ctype="x-option" equiv-text="&lt;option&gt;"/> USA-en<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/>
+      <x id="START_TAG_OPTION_1" ctype="x-option" equiv-text="&lt;option&gt;"/> CANADA-en<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/>
+      <x id="START_TAG_OPTION_2" ctype="x-option" equiv-text="&lt;option&gt;"/> UK-en<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/>
     <x id="CLOSE_TAG_SELECT" ctype="x-select" equiv-text="&lt;/select&gt;"/>
   </target>
         <context-group purpose="location">
@@ -38,11 +38,29 @@
           <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="button-test" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ buttonText }}"/></source>
+        <target>submit in english</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="button-tests" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ buttonText }}"/></source>
+        <target>submit in en</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="homeTitle" datatype="html">
         <source>
       Tutorials
     </source>
-    <target>Tutoriales</target>
+    <target>
+      Tutorials-en
+    </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tutorials/tutorials.component.html</context>
           <context context-type="linenumber">3</context>
@@ -57,31 +75,26 @@
       an email/password as well as social login authentication workflows for
       Angular 5 apps using AngularFire2 library.
     </source>
-    <target>
-      <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Firebase Authentication with Angular<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Cuando desarrollamos aplicaciones web, es necesario algun tipo de autenticacion.
-        Si piensas en las todas plataformas sociales y opciones de inicio de sesión con correo electrónico disponibles, la autenticación parece una
-        tarea muy compleja. En este tutorial de Angular 5 vamos a explorar cómo configurar
-        un correo electrónico / contraseña, así como los métodos de autenticación de inicio de sesión social para
-        Aplicaciones de Angular 5 usando la biblioteca AngularFire2.
+     <target>
+      <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Firebase Authentication with Angular<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: When developing web applications, any
+      type of authentication feature is necessary. If you think of the many social
+      platforms and email sign in options available, authentication looks like a
+      very complex task. In this Angular 5 tutorial we will explore how to setup
+      an email/password as well as social login authentication workflows for
+      Angular 5 apps using AngularFire2 library.
     </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tutorials/tutorials.component.html</context>
           <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="button-test" datatype="html">
-        <source><x id="INTERPOLATION" equiv-text="{{ buttonText }}"/></source>
-        <target>Submit in Spanish</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">38</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="notFoundTitle" datatype="html">
         <source>
     Not found 404
   </source>
-  <target>No encontrado 404</target>
+  <target>
+    Not found 404
+  </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/404/404.component.html</context>
           <context context-type="linenumber">2</context>
