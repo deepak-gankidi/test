@@ -628,7 +628,17 @@ var AppComponent = /** @class */ (function () {
         this.fb = fb;
         this.locales = [];
         this.currentUrl = "";
-        this.countries = ['USA', 'Canada', 'Uk'];
+        this.countries = [{
+                id: 'USA',
+                value: 'USA-en',
+                translate: 'usa-en'
+            },
+            {
+                id: 'CANADA',
+                value: 'CANADA-en',
+                translate: 'canada-en'
+            }
+        ];
         this.buttonText = "Submit in English";
     }
     AppComponent.prototype.ngOnInit = function () {

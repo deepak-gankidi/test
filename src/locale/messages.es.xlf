@@ -1,18 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en" datatype="plaintext" original="ng2.template">
+  <file source-language="en" datatype="plaintext" original="ng2.template" target-language="es">
     <body>
       <trans-unit id="toolbar-title" datatype="html">
-        <source>My Application</source>
-        <target>Mi Aplicación</target>
+        <source>My Application</source><target state="final">Mi Aplicación</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">6</context>
         </context-group>
       </trans-unit>
       <trans-unit id="tutorial-button" datatype="html">
-        <source>Tutorials</source>
-        <target>Tutoriales</target>
+        <source>Tutorials</source><target state="final">Tutoriales</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">18</context>
@@ -20,29 +18,36 @@
       </trans-unit>
       <trans-unit id="dropdown-test" datatype="html">
         <source>
-    <x id="START_TAG_SELECT" ctype="x-select" equiv-text="&lt;select&gt;"/>
-      <x id="START_TAG_OPTION" ctype="x-option" equiv-text="&lt;option&gt;"/> USA<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/>
-      <x id="START_TAG_OPTION_1" ctype="x-option" equiv-text="&lt;option&gt;"/> CANADA<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/>
-      <x id="START_TAG_OPTION_2" ctype="x-option" equiv-text="&lt;option&gt;"/> UK<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/>
-    <x id="CLOSE_TAG_SELECT" ctype="x-select" equiv-text="&lt;/select&gt;"/>
-  </source>
-   <target>
-    <x id="START_TAG_SELECT" ctype="x-select" equiv-text="&lt;select&gt;"/>
-      <x id="START_TAG_OPTION" ctype="x-option" equiv-text="&lt;option&gt;"/> USA-es<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/>
-      <x id="START_TAG_OPTION_1" ctype="x-option" equiv-text="&lt;option&gt;"/> CANADA-es<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/>
-      <x id="START_TAG_OPTION_2" ctype="x-option" equiv-text="&lt;option&gt;"/> UK-es<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/>
-    <x id="CLOSE_TAG_SELECT" ctype="x-select" equiv-text="&lt;/select&gt;"/>
+    <x id="START_TAG_SELECT" ctype="x-select" equiv-text="&lt;select>"/>
+      <x id="START_TAG_OPTION" ctype="x-option" equiv-text="&lt;option>"/> USA<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option>"/>
+      <x id="START_TAG_OPTION_1" ctype="x-option" equiv-text="&lt;option>"/> CANADA<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option>"/>
+      <x id="START_TAG_OPTION_2" ctype="x-option" equiv-text="&lt;option>"/> UK<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option>"/>
+    <x id="CLOSE_TAG_SELECT" ctype="x-select" equiv-text="&lt;/select>"/>
+  </source><target state="final">
+    <x id="START_TAG_SELECT" ctype="x-select" equiv-text="&lt;select>"/>
+      <x id="START_TAG_OPTION" ctype="x-option" equiv-text="&lt;option>"/> USA-es<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option>"/>
+      <x id="START_TAG_OPTION_1" ctype="x-option" equiv-text="&lt;option>"/> CANADA-es<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option>"/>
+      <x id="START_TAG_OPTION_2" ctype="x-option" equiv-text="&lt;option>"/> UK-es<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option>"/>
+    <x id="CLOSE_TAG_SELECT" ctype="x-select" equiv-text="&lt;/select>"/>
   </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="button-test" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ buttonText }}"/></source><target state="final">Submit in Spanish</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="homeTitle" datatype="html">
         <source>
       Tutorials
-    </source>
-    <target>Tutoriales</target>
+    </source><target state="final">
+      Tutoriales
+    </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tutorials/tutorials.component.html</context>
           <context context-type="linenumber">3</context>
@@ -50,15 +55,14 @@
       </trans-unit>
       <trans-unit id="FirstParagraphTutorials" datatype="html">
         <source>
-      <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Firebase Authentication with Angular<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: When developing web applications, any
+      <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/><x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>Firebase Authentication with Angular<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/><x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>: When developing web applications, any
       type of authentication feature is necessary. If you think of the many social
       platforms and email sign in options available, authentication looks like a
       very complex task. In this Angular 5 tutorial we will explore how to setup
       an email/password as well as social login authentication workflows for
       Angular 5 apps using AngularFire2 library.
-    </source>
-    <target>
-      <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Firebase Authentication with Angular<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: Cuando desarrollamos aplicaciones web, es necesario algun tipo de autenticacion.
+    </source><target state="final">
+      <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/><x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>Firebase Authentication with Angular<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/><x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>: Cuando desarrollamos aplicaciones web, es necesario algun tipo de autenticacion.
         Si piensas en las todas plataformas sociales y opciones de inicio de sesión con correo electrónico disponibles, la autenticación parece una
         tarea muy compleja. En este tutorial de Angular 5 vamos a explorar cómo configurar
         un correo electrónico / contraseña, así como los métodos de autenticación de inicio de sesión social para
@@ -69,19 +73,12 @@
           <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="button-test" datatype="html">
-        <source><x id="INTERPOLATION" equiv-text="{{ buttonText }}"/></source>
-        <target>Submit in Spanish</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">38</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="notFoundTitle" datatype="html">
         <source>
     Not found 404
-  </source>
-  <target>No encontrado 404</target>
+  </source><target state="final">
+    Not found 404 es
+  </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/404/404.component.html</context>
           <context context-type="linenumber">2</context>
